@@ -1,1 +1,2 @@
-pub use adder;
+mod adder;
+pub use adder::add_two;

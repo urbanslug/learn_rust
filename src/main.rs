@@ -1,5 +1,5 @@
-mod lib;
+use learn_rust;
 
 fn main() {
-    println!("Hello, world! {}", lib::add_two(3));
+    println!("Hello, world! {}", learn_rust::add_two(3));
 }
